@@ -9,7 +9,8 @@ public class pr5 {
         String input = sc.nextLine();
         String pismeno = input.substring(1,2);
 
-        znacka(pismeno);
+
+        System.out.println(znacka(pismeno));
     }
     public static String znacka( String pismeno) {
 
@@ -29,16 +30,14 @@ public class pr5 {
                 {"U", "Ústecký kraj"},
                 {"Z", "Zlínský kraj"}
         };
-String pismenko = "";
+String kraj = "";
 
         for (int i = 0; i < znacky.length; i++) {
             if (pismeno.equals(znacky[i][0])) {
-                pismenko = znacky[i][0];
+                kraj = znacky[i][1];
             }
-
             }
-        System.out.println(pismenko);
-        return pismenko;
+        return kraj;
     }
 
     }
