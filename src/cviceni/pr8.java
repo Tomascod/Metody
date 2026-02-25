@@ -13,15 +13,18 @@ public class pr8 {
         Scanner input = new Scanner(System.in);
         System.out.println("je rok přestupný? (true/false)");
         boolean prestupny = input.nextBoolean();
+
+        if (prestupny){
+            dny[1] = 29;
+        }
+
         System.out.println("zadejte den");
         int inp =  input.nextInt();
         System.out.println("zadejte měsíc");
         String mesic = input.next();
 
         for (int i = 0; i < mesice.length; i++) {
-            if (prestupny){
-                dny[1] = 29;
-            }
+
             if (mesice[i].equalsIgnoreCase(mesic)) {
                 odZacatku+= inp;
                 break;

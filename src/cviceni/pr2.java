@@ -2,7 +2,7 @@ package cviceni;
 
 public class pr2 {
     public static void main(String[] args) {
-        int[] pole = {0,2,99,4,5,100,20,30,40,50};
+        int[] pole = {15,2,99,4,5,100,20,30,40,50};
 max(pole);
 min(pole);
     }

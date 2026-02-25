@@ -35,6 +35,7 @@ String kraj = "";
         for (int i = 0; i < znacky.length; i++) {
             if (pismeno.equals(znacky[i][0])) {
                 kraj = znacky[i][1];
+                break;
             }
             }
         return kraj;

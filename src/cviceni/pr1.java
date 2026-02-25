@@ -17,8 +17,8 @@ numbers(a,min,max);
 
     public static void numbers(int a,int min,int max) {
         int cislo=0;
+        Random rn = new Random();
         for (int i = 0; i < a; i++) {
-            Random rn = new Random();
             cislo = rn.nextInt(min, max+1);
             System.out.print(cislo+"|");
 

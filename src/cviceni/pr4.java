@@ -35,6 +35,7 @@ public class pr4 {
         for (int i = 0; i < znacky.length; i++) {
             if (pismeno.equals(znacky[i][0])){
                 System.out.println(znacky[i][1]);
+                break;
             }
     }
 }}
